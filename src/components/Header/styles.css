@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+header {
+  background: url(../../assets/imgs/bg-waves.gif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0px;
+}
+
+.bg-transparent {
+  background-color: rgba(0, 0, 0, 0.212);
+  backdrop-filter: blur(5px);
+  height: 100vh;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #8f8f8f5d;
+  margin: 0;
+  height: 50px;
+  color: #a3ab78;
+
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+
+  font-family: "Poppins";
+}
+
+nav li {
+  cursor: help;
+  transition: 0.2s;
+  border-bottom: 0px solid #8f8f8f5d;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+
+  border-bottom: 1px solid #8f8f8f;
+}
+
+.nav-menu span {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.text-container {
+  padding: 40px 0 0 50px;
+}
+
+.text-container h1 {
+  font-family: "Lobster", sans-serif;
+  color: #bde038;
+  font-size: 3.7rem;
+  margin-bottom: 0px;
+}
+.text-container h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #bde038;
+  font-size: 2.8rem;
+  margin-bottom: 0px;
+}
+.text-container h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #a3ab78;
+  font-size: 3.5rem;
+  margin: 0 0 0 8rem;
+}
+
+.container-center {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  color: #a3ab78;
+  margin: auto;
+  width: fit-content;
+}
+
+.container-center #umPoucoMais {
+  margin-left: 10px;
+}
+.container-center #devWeb {
+  font-size: 5rem;
+}
+.container-center #slogan {
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* 
+.container-right img {
+  position: absolute;
+  top: 25%;
+  left: 1;
+  width: 90vw;
+  z-index: -1;
+  width: 350px;
+} */
