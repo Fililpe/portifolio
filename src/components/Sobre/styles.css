@@ -1,5 +1,20 @@
 section {
+  display: flex;
+  justify-content: center;
+  padding: 7rem 5rem 5rem 5rem;
+  gap: 10rem;
+
   height: 100vh;
-  background-color: #e8e8e8;
-  /* background-color: var(--cor-cinza-azulado); */
+  background-color: var(--cor-cinza-azulado);
+  color: #e8e8e8;
+  font-family: "Montserrat";
+}
+
+article h1 {
+  font-size: 3rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
 }
