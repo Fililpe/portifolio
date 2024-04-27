@@ -1,0 +1,41 @@
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 0;
+  height: 50px;
+  width: 100%;
+
+  border-bottom: 1px solid #8f8f8f5d;
+  color: #a3ab78;
+
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+.nav-menu span {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+
+  font-family: "Poppins";
+}
+
+nav li {
+  cursor: help;
+  transition: 0.2s;
+  border-bottom: 0px solid #8f8f8f5d;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+
+  border-bottom: 1px solid #8f8f8f;
+}

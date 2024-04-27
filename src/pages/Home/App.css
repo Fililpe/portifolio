@@ -1,6 +1,15 @@
+::selection {
+  background-color: #bce0389d; /* cor de fundo da seleção */
+  color: #10454f; /* cor do texto selecionado */
+}
+
 body {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
   background-color: #e8e8e8e8;
+}
+
+html {
+  scroll-behavior: smooth;
 }
